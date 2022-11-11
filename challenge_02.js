@@ -32,7 +32,11 @@ if (age >= 0 && age <= 5 ) {
 } else if (age >= 13 && age <= 17) {
     console.log(firstName + " trinkt Cola");
 
-} else {
+}else if (age >= 18) {
     console.log(firstName + " trinkt Wein");
 
+} else {
+    console.log(firstName + ", please inter a valid age");
 }
+  
+ 
