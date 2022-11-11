@@ -19,8 +19,8 @@ Alter 13-17 // Cola
 // with placeholder for testing: 
 //let firstName = ( prompt( "Your name ", "Hinda" ) );
 
-let firstName = ( prompt( "Your name " ) );
-let age = Number( prompt( "Your age" ) );
+let firstName = ( prompt( "Your name: " ) );
+let age = Number( prompt( "Your age: " ) );
 
 
 if (age >= 0 && age <= 5 ) {
@@ -36,4 +36,3 @@ if (age >= 0 && age <= 5 ) {
     console.log(firstName + " trinkt Wein");
 
 }
-
