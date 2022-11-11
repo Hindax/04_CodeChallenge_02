@@ -23,10 +23,10 @@ let firstName = ( prompt( "Your name: " ) );
 let age = Number( prompt( "Your age: " ) );
 
 
-if (age >= 0 && age <= 5 ) {
+if(age >= 0 && age <= 5 ) {
     console.log(firstName + " trinkt Milch");
     
-} else if(age >= 6 &&  age <= 12) {
+} else if (age >= 6 &&  age <= 12) {
     console.log(firstName + " trinkt Saft");
 
 } else if (age >= 13 && age <= 17) {
@@ -36,7 +36,7 @@ if (age >= 0 && age <= 5 ) {
     console.log(firstName + " trinkt Wein");
 
 } else {
-    console.log(firstName + ", please inter a valid age");
+    console.log(firstName + ", please enter a valid age");
 }
   
  
